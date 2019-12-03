@@ -12,5 +12,5 @@ def print_first_directors_movie_titles
   
   index = 0 
   while index < array.length do
-    puts #{}
+    puts #{array[index][:title]}
 end
