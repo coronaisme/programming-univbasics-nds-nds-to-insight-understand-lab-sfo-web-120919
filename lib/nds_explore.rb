@@ -8,5 +8,9 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  array = directors_database[0][:]
+  array = directors_database[0][:movies]
+  
+  index = 0 
+  while index < array.length do
+    pp
 end
